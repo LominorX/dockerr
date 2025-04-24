@@ -31,6 +31,9 @@ RUN pip install --upgrade pip && pip install \
     psutil \
     memory-profiler \
     tqdm \
+    datasets \
+    wfdb \
+    tf-keras \
     ipywidgets
 
 # Expose JupyterLab port
